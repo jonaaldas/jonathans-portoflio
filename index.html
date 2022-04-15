@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Aldas</title>
+</head>
+
+<body>
+
+    <header class="profile container">
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+
+                        <img src="./assets/img/IMG_4184_Original-min.jpg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Jonathan Aldas</h2>
+                <h3 class="profile__profession">Front End Engineer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jonaaldas/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/jonaaldas" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__buttons">
+
+                <a download=""
+                    href="https://docs.google.com/document/d/1BiBWPvhmjbDOwchh7DOYMfH8DIJXPFLuAXsGE5YtFjI/edit"
+                    class="button">
+                    View Resume <i class="ri-download-line"></i>
+                </a>
+                <a href="mailto:jonaaldas@gmail.com" target="_blank" class="profile__social-link">
+                    <i class="ri-mail-send-line"></i>
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <section class="filters container">
+
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+
+                <div class="projects__content grid filters__active" data-content id="projects">
+
+                    <article class="projects__card">
+                        <img src="assets/img/Screen Shot 2022-04-13 at 5.29.44 PM.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">1st place Hackathon</span>
+                                <h3 class="projects__title">Sweet Treats</h3>
+                                <a target="_blank" href="https://whispering-refuge-58700.herokuapp.com/index.html"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=hNyYrOG7ApM"
+                                    class="projects__button button button__small">
+                                    <i class="ri-youtube-line"></i>
+                                </a>
+                                <a target="_blank" href="https://github.com/jonaaldas/Hackathon-sweet-treats-heroku"
+                                    class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+
+                        <img src="assets/img/Screen Shot 2022-04-13 at 5.29.23 PM.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">CRUD React APP</span>
+                                <h3 class="projects__title">Transaction Managment</h3>
+                                <a target="_blank" href="https://ornate-kulfi-cf002a.netlify.app/"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=MYLQmAo_Nb4"
+                                    class="projects__button button button__small">
+                                    <i class="ri-youtube-line"></i>
+                                </a>
+                                <a target="_blank" href="https://github.com/jonaaldas/transaction-io/tree/master"
+                                    class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/Screen Shot 2022-04-13 at 5.30.12 PM.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 target="_blank" class="projects__title">Rock Paper Scissors</h3>
+                                <a href="https://tangerine-macaron-c45216.netlify.app/"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=ZTVXJSiV1_M"
+                                    class="projects__button button button__small">
+                                    <i class="ri-youtube-line"></i>
+                                </a>
+                                <a target="_blank" href="https://github.com/jonaaldas/rockPaperScissorsGame"
+                                    class="projects__button button button__small">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+
+                </div>
+
+
+
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">GitHub</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; ALdas Meida. All rigths reserved
+        </span>
+    </footer>
+
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
